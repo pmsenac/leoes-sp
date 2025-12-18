@@ -1,0 +1,76 @@
+@media (max-width: 1920px) {
+    .bg-menu {
+        background: url("../images/bg-menu.png") center center no-repeat;
+        background-size: auto 750%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    .bg-menu {
+        background: url("../images/bg-menu.png") center center no-repeat;
+        background-size: auto 300%;
+    }
+
+    .hero {
+        min-height: auto;
+        height: 160px;
+    }
+
+    .big-card {
+        height: auto;
+        border-radius: 10px;
+        display: inline-block;
+        min-height: 1em;
+        vertical-align: middle;
+        background-color: currentcolor;
+    }
+
+    .big-card img {
+        border-radius: 10px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .side-card {
+        height: 320px
+    }
+
+    .member-card {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .member-card img {
+        width: 100%;
+    }
+
+    .video-box {
+        height: 140px
+    }
+
+    .logo {
+        width: 56px;
+        height: 56px
+    }
+
+    .logo img{
+        width: 56px;
+        height: 56px;
+    }
+
+    .table-line {
+        line-height: 22px;
+    }
+
+    footer a {
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+}

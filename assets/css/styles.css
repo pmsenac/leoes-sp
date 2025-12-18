@@ -1,0 +1,226 @@
+:root {
+    --navy-1: #07173a;
+    --navy-2: #0f2b5a;
+    --card: #e7e7e7;
+    --input-bg: rgba(0, 0, 0, 0.22);
+    --input-bg-focus: rgba(0, 0, 0, 0.32);
+    --input-border: rgba(255, 255, 255, 0.22);
+    --input-border-focus: rgba(220, 53, 69, 0.75);
+}
+
+body {
+    font-family: Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(180deg, var(--navy-1), var(--navy-2));
+    color: #e7e7e7
+}
+
+.bg-menu {
+    background: url("../images/bg-menu.png") center center no-repeat;
+    background-size: auto 700%;
+}
+
+a.nav-link {
+    margin: auto 10px auto 10px;
+}
+
+.embaixada-text p {
+    font-size: 16px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #d33, #a00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.socio-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.hero {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    min-height: 260px;
+}
+
+.hero .carousel-inner .carousel-item img {
+    border-radius: 10px;
+}
+
+.hero img {
+    border-radius: 10px;
+}
+
+.big-card {
+    height: 320px;
+    border-radius: 10px;
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    background-color: currentcolor;
+}
+
+.big-card img {
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    height: 320px;
+}
+
+.table-line {
+    line-height: 22px;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.side-card {
+    height: 320px;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    min-height: 1em;
+    vertical-align: middle;
+    background-color: currentcolor;
+}
+
+.member-card {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    min-height: 1.5em;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.member-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-box {
+    height: auto;
+    display: inline-block;
+    min-height: 180px;
+    vertical-align: middle;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.table {
+    --bs-table-bg: transparent;
+}
+
+.store-box {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.store-box img {
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.big-card {
+    width: 100%;
+}
+
+.maps {
+    width: 100%;
+}
+
+.maps iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+/* small tweaks to match Figma look */
+.section-title {
+    letter-spacing: 2px
+}
+
+footer small {
+    color: #c9d0da
+}
+
+.contact-card {
+    background-color: var(--navy-1);
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.form-control-leoes {
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: #fff;
+    border-radius: 10px;
+    padding:  0.65rem;
+    box-shadow: none;
+}
+
+/* Esconde o placeholder (mantém só o label "dentro") sem quebrar o floating label */
+.form-control-leoes::placeholder {
+    color: #fff;
+}
+
+.form-control-leoes:focus {
+    background: var(--input-bg-focus);
+    border-color: var(--input-border-focus);
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.15);
+    color: #fff;
+}
+
+/* Floating label */
+.form-floating > label {
+    color: rgba(255, 255, 255, 0.78);
+    padding-left: 0.95rem;
+}
+
+.form-floating > .form-control-leoes:focus ~ label,
+.form-floating > .form-control-leoes:not(:placeholder-shown) ~ label {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+/* Ajuste específico do textarea com floating label */
+.form-floating > textarea.form-control-leoes {
+    padding-top: 1.6rem;
+    padding-bottom: 0.8rem;
+}
+
+footer a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
