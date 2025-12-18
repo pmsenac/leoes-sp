@@ -1,6 +1,6 @@
 :root {
     --navy-1: #07173a;
-    --navy-2: #0f2b5a;
+    --navy-2: #173f7f;
     --card: #e7e7e7;
     --input-bg: rgba(0, 0, 0, 0.22);
     --input-bg-focus: rgba(0, 0, 0, 0.32);
@@ -10,7 +10,7 @@
 
 body {
     font-family: Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background: linear-gradient(180deg, var(--navy-1), var(--navy-2));
+    background: linear-gradient(180deg, var(--navy-2), var(--navy-1));
     color: #e7e7e7
 }
 
